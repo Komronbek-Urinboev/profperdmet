@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-    double x = 1.2, y = 2.1, z = 0.7; // <-- здесь задай свои значения
-
+    double x = 1.2, y = 2.1, z = 0.7; 
     double beta = sqrt(10 * (cbrt(x) + pow(x, y + 2))) * fabs(pow(asin(z), 2) - fabs(x - y));
     double gamma = (5 * atan(x) - 0.25 * acos(x)) * (pow(x + 3 * fabs(x - y) + pow(x, 2), 1) / (fabs(x - y) * z + pow(x, 2)));
     double phi = (exp(fabs(x - y)) * pow(fabs(x - y), x + y)) / (atan(x) + atan(z)) + cbrt(pow(x, 6) + pow(log(y), 2));
